@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import { useLocation } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 
 const Sidebar = () => {
   const [isShrinkView, setIsShrinkView] = useState(false)
   const [isDarkMode, setIsDarkMode] = useState(false)
 
-  const pathname = useLocation().pathname
+  // const pathname = useLocation().pathname
 
   const handleSidebarView = () => {
     setIsShrinkView(!isShrinkView)
@@ -110,8 +110,8 @@ const Sidebar = () => {
         </div>
         <ul className="sidebar-list">
           {tasks.map((task) => (
-            <li className={`sidebar-listItem${task.link === pathname ? " active" : ""}`} key={task.id}>
-              <Link to={task.link}>
+            <li className="sidebar-listItem active" key={task.id}>
+              {/* <Link to={task.link}> */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -126,7 +126,7 @@ const Sidebar = () => {
                   <path d="M9 3v18M15 3v18M3 9h18M3 15h18" />
                 </svg>
                 <span className="sidebar-listItemText">{task.name}</span>
-              </Link>
+              {/* </Link> */}
             </li>
           ))}
         </ul>
