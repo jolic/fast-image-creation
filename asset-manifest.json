@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fast-image-creation/static/css/main.d2014970.css",
+    "main.js": "/fast-image-creation/static/js/main.cdc40fb1.js",
+    "static/media/Layer1.bmp": "/fast-image-creation/static/media/Layer1.84bf022fb55f3083069d.bmp",
+    "static/media/Layer2.bmp": "/fast-image-creation/static/media/Layer2.c826f8f4b8245990e699.bmp",
+    "index.html": "/fast-image-creation/index.html",
+    "main.d2014970.css.map": "/fast-image-creation/static/css/main.d2014970.css.map",
+    "main.cdc40fb1.js.map": "/fast-image-creation/static/js/main.cdc40fb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2014970.css",
+    "static/js/main.cdc40fb1.js"
+  ]
+}
