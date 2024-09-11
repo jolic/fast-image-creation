@@ -37,12 +37,12 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <div>Test</div>
-      },
-      {
-        path: "/tasks",
         element: <Task1 />,
       },
+      // {
+      //   path: "/tasks",
+      //   element: <Task1 />,
+      // },
       // {
       //   path: "/task2",
       //   element: <Task2 />,
